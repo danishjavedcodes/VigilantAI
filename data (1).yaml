@@ -1,0 +1,13 @@
+train: /content/yolov5/dataset/train
+val: /content/yolov5/dataset/valid
+test: /content/yolov5/dataset/test
+
+nc: 3
+names: ['normal person', 'robber', 'weapon']
+
+roboflow:
+  workspace: detectai
+  project: vigilant_ai
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/detectai/vigilant_ai/dataset/8
